@@ -1,0 +1,214 @@
+# Git & GitHub Day 1
+
+## What is Git?
+
+Git is a distributed version control system used to track changes in files and source code. It helps developers maintain version history, collaborate with teams, and restore previous versions when required.
+
+### Simple Definition
+
+Git is a tool that helps us save, track, and manage changes in a project over time.
+
+---
+
+## What is GitHub?
+
+GitHub is a cloud-based platform that hosts Git repositories and enables collaboration, code sharing, version management, and project tracking.
+
+### Simple Definition
+
+GitHub is a website where Git repositories are stored and shared.
+
+---
+
+## Difference Between Git and GitHub
+
+| Git                    | GitHub                      |
+| ---------------------- | --------------------------- |
+| Version Control System | Repository Hosting Platform |
+| Works Locally          | Works Online                |
+| Tracks Changes         | Stores Repositories         |
+| Installed on Computer  | Accessed Through Browser    |
+
+---
+
+## Why Do We Use Git?
+
+* Track project changes
+* Maintain version history
+* Collaborate with developers
+* Restore previous versions
+* Manage source code efficiently
+
+---
+
+## Git Workflow
+
+```text
+Working Directory
+       ↓
+git add
+       ↓
+Staging Area
+       ↓
+git commit
+       ↓
+Local Repository
+       ↓
+git push
+       ↓
+GitHub
+```
+
+---
+
+## Commands Learned
+
+### Check Git Version
+
+```bash
+git --version
+```
+
+Shows the installed Git version.
+
+---
+
+### Check Repository Status
+
+```bash
+git status
+```
+
+Shows:
+
+* Modified files
+* Staged files
+* Untracked files
+
+---
+
+### Stage Files
+
+```bash
+git add file.txt
+```
+
+Stages a specific file.
+
+```bash
+git add .
+```
+
+Stages all files.
+
+---
+
+### Create a Commit
+
+```bash
+git commit -m "Added notes file"
+```
+
+Creates a snapshot of the current project state.
+
+---
+
+### Push to GitHub
+
+```bash
+git push
+```
+
+Uploads local commits to GitHub.
+
+---
+
+### View Commit History
+
+```bash
+git log --oneline
+```
+
+Shows commit history in a compact format.
+
+---
+
+## Practical Exercise
+
+### Create a File
+
+```bash
+touch notes.txt
+```
+
+### Check Status
+
+```bash
+git status
+```
+
+### Stage File
+
+```bash
+git add notes.txt
+```
+
+### Commit Changes
+
+```bash
+git commit -m "Added notes file"
+```
+
+### Push Changes
+
+```bash
+git push
+```
+
+---
+
+## Key Takeaways
+
+* Git tracks project changes.
+* GitHub stores Git repositories online.
+* `git add` stages changes.
+* `git commit` saves changes.
+* `git push` uploads changes to GitHub.
+* Every commit acts as a project checkpoint.
+
+---
+
+## Interview Questions
+
+### What is Git?
+
+Git is a distributed version control system used to track changes in source code and manage project versions.
+
+### What is GitHub?
+
+GitHub is a cloud-based platform used to host and manage Git repositories.
+
+### What is a Commit?
+
+A commit is a snapshot of the project at a specific point in time.
+
+### What is the Difference Between Git and GitHub?
+
+Git is the version control tool, while GitHub is the platform that hosts Git repositories.
+
+---
+
+## Day 1 Summary
+
+Today I learned:
+
+* Git Fundamentals
+* GitHub Fundamentals
+* Git Workflow
+* git status
+* git add
+* git commit
+* git push
+* git log
+
+This forms the foundation for all future Git and DevOps workflows.
